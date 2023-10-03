@@ -1,0 +1,75 @@
+#!/bin/bash
+
+R="\033[1;31m"
+G="\033[1;32m"
+Y="\033[1;33m"
+PU="\033[1;34m"
+PI="\033[1;35m"     
+B="\033[1;36m"
+W="\033[1;37m"
+BL="\033[1;30m"
+Purple="\e[38;5;93m"
+Pink="\e[38;5;206m" 
+Gold="\e[38;5;220m"
+clear
+for ((i=1; i<=3; i++))
+do
+echo
+done
+echo -e "\t${W}Tool Usage"
+echo
+echo -e "\t${G}How To ${W}Start ${Purple}Linux-Distro ${R}Command"
+for ((i=1; i<=4; i++))
+do
+echo
+done
+echo -e "\t${Y}[ ${PI}1 ${Y}] ${G}Two Start Ubuntu type 👇"
+echo
+echo -e "\t\t${W}ubuntu"
+echo
+echo
+echo -e "\t${Y}[ ${PI}2 ${Y}] ${G}Two Start Debian type 👇"
+echo
+echo -e "\t\t${W}debian"
+echo
+echo
+echo -e "\t${Y}[ ${PI}3 ${Y}] ${G}Two Start Alpine type 👇"
+echo
+echo -e "\t\t${W}alpine"
+echo
+echo
+echo -e "\t${Y}[ ${PI}4 ${Y}]  ${G}Two Start Manjaro type 👇"
+echo
+echo -e "\t\t${W}manjaro-arrch64"
+echo
+echo
+echo -e "\t${Y}[ ${PI}5 ${Y}] ${G}Two Start Arch Linux type 👇"
+echo
+echo -e "\t\t${W}Archlinux"
+echo
+echo
+echo -e "\t${Y}[ ${PI}6 ${Y}] ${G}Two Start Opensuse type 👇"
+echo
+echo -e "\t\t${W}opensuse"
+echo
+echo
+echo -e "\t${Y}[ ${PI}7 ${Y}] ${G}Two Start Viod type 👇"
+echo
+echo -e "\t\t${W}viod"
+echo
+echo
+echo -e "\t${Y}[ ${PI}8 ${Y}] ${G}Two Start Pardus type 👇"
+echo
+echo -e "\t\t${W}pardus"
+echo
+echo
+echo -e "\t${Y}[ ${PI}9 ${Y}] ${G}Two Start Fedora type 👇"
+echo
+echo -e "\t\t${W}fedora"
+echo
+echo
+echo -e "\t${Y}[ ${PI}10 ${Y}] ${G}Two Start Kali Linux type 👇"
+echo
+echo -e "\t\t${W}nethunter"
+echo
+echo
