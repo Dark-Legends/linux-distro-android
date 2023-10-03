@@ -19,6 +19,11 @@ apt install git -y
 
 
 ```bash
+apt install proot-distro -y
+```
+
+
+```bash
 git clone https://github.com/Dark-Legends/linux-distro-android.git
 ```
 
