@@ -7,7 +7,10 @@
 - only on Termux
 
 
-# Installation And Requirements
+# 🔰 Installation And Requirements 🔰
+
+
+
 ```bash
 apt update && apt upgrade -y
 ```
