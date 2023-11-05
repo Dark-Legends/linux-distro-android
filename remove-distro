@@ -53,7 +53,7 @@ echo -e "\t${R}InvalidError : please Enter a valid Linux Distro Number..."
 		echo
 		proot-distro remove ubuntu
 		echo
-		rm $PATH/ubuntu
+		rm -rf $PATH/ubuntu
 		sleep 1
 	echo -e "\t${G}Your ubuntu Distro ${R}Delete"
  elif [ $Re -eq 2 ]; then
@@ -61,7 +61,7 @@ echo -e "\t${R}InvalidError : please Enter a valid Linux Distro Number..."
 		echo
 		proot-distro remove debian
 		echo
-		rm $PATH/debian
+		rm -rf $PATH/debian
 		sleep 1
 	echo -e "\t${G}Your Debian Distro ${R}Delete"
  elif [ $Re -eq 3 ]; then
@@ -69,23 +69,21 @@ echo -e "\t${R}InvalidError : please Enter a valid Linux Distro Number..."
 		echo
 		proot-distro remove alpine
 		echo
-		rm $PATH/alpine
+		rm -rf $PATH/alpine
 		sleep 1
 	echo -e "\t${G}Your Alpine Debian Distro ${R}Delete"
   elif [ $Re -eq 4 ]; then
 		clear
-		echo
 		proot-distro remove manjaro-aarch64
 		echo
-		rm $PATH/manjaro-arrch64
+		rm -rf $PATH/manjaro-arrch64
 		sleep 1
 	echo -e "\t${G}Your Manjaro-arrch64 Disrto ${R}Delete"
   elif [ $Re -eq 5 ]; then
 		clear
-		echo
 		proot-distro remove archlinux
 		echo
-		rm $PATH/Archlinux
+		rm -rf $PATH/Archlinux
 		sleep 1
 	echo -e "\t${G}Your Archlinux Disrto ${R}Delete"
   elif [ $Re -eq 6 ]; then
@@ -93,80 +91,75 @@ echo -e "\t${R}InvalidError : please Enter a valid Linux Distro Number..."
 		echo
 		proot-distro remove opensuse
 		echo
-		rm $PATH/opensuse
+		rm -rf $PATH/opensuse
 		sleep 1
 	echo -e "\t${G}Your Opensuse Disrto ${G}Delete"
   elif [ $Re -eq 7 ]; then
-		clear
-		echo
+		clear 
 		proot-distro remove fedora
-		rm $PATH/fedora
+		rm -rf $PATH/fedora
 		sleep 1
 	echo -e "\t${G}Your Fedora Distro ${R}Delete"
   elif [ $Re -eq 8 ]; then
 		clear
 		echo
 		proot-distro remove pardus
-		rm $PATH/pardus
+		rm -rf $PATH/pardus
 		sleep 1
 	echo -e ?"\t${G}Your Pardus Distro ${R}Delete"
   elif [ $Re -eq 9 ]; then
 		clear
 		echo
 		proot-distro remove viod
-		rm $PATH/void
+		rm -rf $PATH/void
 		sleep 1
 	echo -e "\t${G}Your viod Distro ${R}Delete"
   elif [ $Re -eq 10 ]; then
 		clear
 		cd ..
-		echo
 		rm -rf kali-arm64
 		sleep 1
-	echo -e "\t${G}Your Kali Distro ${R}Delete"
+	echo -e "\t\a${G}Your Kali Distro ${R}Delete\n"
   elif [ $Re -eq 11 ]; then
 		banner
 		echo
                 proot-distro remove ubuntu
-                echo
-                rm $PATH/ubuntu
+                rm -rf $PATH/ubuntu
                 sleep 1
-		echo
                 proot-distro remove debian
                 echo
-                rm $PATH/debian
+                rm -rf $PATH/debian
                 sleep 1
 		echo
                 proot-distro remove alpine
                 echo
-                rm $PATH/alpine
+                rm -rf $PATH/alpine
                 sleep 1
-		echo
                 proot-distro remove manjaro-aarch64
                 echo
-                rm $PATH/manjaro-arrch64
+                rm -rf $PATH/manjaro-arrch64
                 sleep 1
 		echo
                 proot-distro remove archlinux
                 echo
-                rm $PATH/Archlinux
+                rm -rf $PATH/Archlinux
                 sleep 1
 		echo
                 proot-distro remove opensuse
                 echo
-                rm $PATH/opensuse
+                rm -rf $PATH/opensuse
                 sleep 1
 		echo
                 proot-distro remove fedora
-                rm $PATH/fedora
+                rm -rf $PATH/fedora
                 sleep 1
 		echo
                 proot-distro remove pardus
-                rm $PATH/pardus
+                rm -rf $PATH/pardus
                 sleep 1
 		echo
                 proot-distro remove viod
-                rm $PATH/void
+                rm -rf $PATH/void
                 sleep 1
 		cd ..
                 echo
