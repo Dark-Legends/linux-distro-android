@@ -6,9 +6,9 @@
 # This Tool Test On 👨‍💻
 - only on Termux
 
+- ` file remove error fixed `
 
 # 🔰 Installation And Requirements 🔰
-
 
 
 ```bash
@@ -32,16 +32,15 @@ git clone https://github.com/Dark-Legends/linux-distro-android.git
 
 
 ```bash
-cd linux-distro-android
+cd linux-distro-android && chmod +x Linux-distro &&. /Linux-distro
 ```
 
 
-```bash
-chmod +x Linux-distro
-```
+<h3><b><i>📡 Connect with us :</i></b></h3>
 
 
-```bash
-./Linux-distro
-```
+<h4>📢 Join Telegram for More Script and Tool for Free and OpenSource </h4>
 
+[![Telegram](https://img.shields.io/badge/Telegram-Channel-blue?style=flat-square&logo=telegram)](https://t.me/CyberDarkLegends)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/Dark-Legends)
