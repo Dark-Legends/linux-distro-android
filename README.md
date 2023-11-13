@@ -1,14 +1,17 @@
-# linux-distro-android
+<h1 align="center">Linux Distros Android</h1>
 
-<img src="Screenshot_2023_1004_123101.png"/>
+<img src="Screenshot_2023_1004_.png"/>
 
 
-# This Tool Test On 👨‍💻
+<h2>This Tool Test On 👨‍💻</h2>
 - only on Termux
 
+<p>Total 11 Linux Distros</p>
+
+- ` Added Artix Linux `
 - ` file remove error fixed `
 
-# 🔰 Installation And Requirements 🔰
+<h1>🔰 Installation And Requirements 🔰<\h1>
 
 
 ```bash
@@ -20,21 +23,18 @@ apt update && apt upgrade -y
 apt install git -y
 ```
 
-
-```bash
-apt install proot-distro -y
-```
-
-
 ```bash
 git clone https://github.com/Dark-Legends/linux-distro-android.git
 ```
 
 
 ```bash
-cd linux-distro-android && chmod +x Linux-distro &&. /Linux-distro
+cd linux-distro-android && chmod +x setup.sh
 ```
 
+```bash
+./setup.sh
+```
 
 <h3><b><i>📡 Connect with us :</i></b></h3>
 
