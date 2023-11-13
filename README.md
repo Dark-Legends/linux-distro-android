@@ -15,17 +15,17 @@
 
 - ` file remove error fixed `
 
-<h1>🔰 Installation And Requirements 🔰<\h1>
+<h1>🔰 Installation And Requirements 🔰</h1>
 
 
 ```bash
 apt update && apt upgrade -y
 ```
 
-
 ```bash
 apt install git -y
 ```
+
 
 ```bash
 git clone https://github.com/Dark-Legends/linux-distro-android.git
@@ -35,6 +35,7 @@ git clone https://github.com/Dark-Legends/linux-distro-android.git
 ```bash
 cd linux-distro-android && chmod +x setup.sh
 ```
+
 
 ```bash
 ./setup.sh
