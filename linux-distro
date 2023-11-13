@@ -43,9 +43,9 @@ display_help() {
     done
     echo -e "\t\a${W}Tool Usage\n"
     echo -e "\t${G}How To ${W}Start ${Purple}Linux-Distro ${R}Command\n\n\n"
-    echo -e "\t${Y}[ ${PI}1 ${Y}] ${G}Two Start Ubuntu type "
+    echo -e "\t${Y}[ ${PI}1 ${Y}] ${G}Two Start Ubuntu type\n"
     echo -e "\t\t${W}ubuntu\n\n"
-    echo -e "\t${Y}[ ${PI}2 ${Y}] ${G}Two Start Debian type "
+    echo -e "\t${Y}[ ${PI}2 ${Y}] ${G}Two Start Debian type\n"
     echo -e "\t\t${W}debian\n\n"
     echo -e "\t${Y}[ ${PI}3 ${Y}] ${G}Two Start Alpine type\n"
     echo -e "\t\t${W}alpine\n\n"
