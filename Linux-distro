@@ -267,7 +267,7 @@ read -p "Enter Your Linux Distro : " Use
 	echo -e "\a${G}Successfully Installed\n"
   elif [ $Use -eq 13 ]; then
 	banner
-	bash remove-distro
+	bash .remove-distro 
   elif [ $Use -eq 14 ]; then
 	bash linux-distro --help
   elif [ $Use -eq 15 ]; then
