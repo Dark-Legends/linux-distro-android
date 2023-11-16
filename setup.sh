@@ -58,6 +58,7 @@ banner
 echo -e "\t\t\t\t\t\t\t${Teal}Version 3.O"
 echo -e "\033[1;32m"
 echo -e "\t\t${W}Code ${PI}By ${B}Manjuanth\n\n"
+echo -e "\033[1;32m"
 termux_install
 echo -e '\n--------------------\n' >> "$ILOG"
 
