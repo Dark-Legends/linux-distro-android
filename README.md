@@ -40,6 +40,11 @@ cd linux-distro-android && chmod +x setup.sh
 ```bash
 ./setup.sh
 ```
+<p>Start To Linux Distro help command ok 👇</p>
+
+```bash
+linux-distro --help
+```
 
 <h3><b><i>📡 Connect with us :</i></b></h3>
 
