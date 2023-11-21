@@ -35,7 +35,7 @@ echo -e "\t _|_|_|    _|_|_|  _|_|_|        _|      _|    _|    _|_| "
 echo      
 }                                                       
 banner
-	echo -e "\t\t\t\t\t\t\t${Teal}Version 3.O"   
+	echo -e "\t\t\t\t\t\t\t${Teal}Version 7.O"   
                                                      
 for ((i=1; i<=2; i++))
 do
