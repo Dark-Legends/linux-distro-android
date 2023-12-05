@@ -7,7 +7,18 @@
 
 - only on Termux
 
+<h3>Linux Distro Support</h3>
 
+* `alpine`: Alpine Linux (edge)
+* `archlinux`: Arch Linux ARM
+* `artix`: Artix Linux (AArch64 only)
+* `debian`: Debian (stable)
+* `fedora`: Fedora 39 (AArch64 only)
+* `manjaro-aarch64`: Manjaro (AArch64 only)
+* `opensuse`: OpenSUSE (Tumbleweed)
+* `pardus`: Pardus (yirmibir)
+* `ubuntu`: Ubuntu (23.10)
+* `void`: Void Linux
 
 <p>Total 11 Linux Distros</p>
 
