@@ -23,7 +23,7 @@
 <p>Total 11 Linux Distros</p>
 
 - ` Added Artix Linux `
-
+- ' Added Deepin Linux  '
 - ` file remove error fixed `
 
 <h1>🔰 Installation And Requirements 🔰</h1>
@@ -54,7 +54,13 @@ cd linux-distro-android && chmod +x setup.sh
 <p>Start To Linux Distro help command ok 👇</p>
 
 ```bash
-linux-distro --help
+Usage: linux-distro [OPTIONS]
+
+Options:
+
+          --version     Show version information
+          --help        Show this help message
+          -F            Follow Dark-Legends
 ```
 
 <h3><b><i>📡 Connect with us :</i></b></h3>
