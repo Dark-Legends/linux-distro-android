@@ -22,8 +22,8 @@
 
 <p>Total 11 Linux Distros</p>
 
-- ` Added Artix Linux `
-- ' Added Deepin Linux  '
+- ` Added Artix Linux Distro `
+- ` Added Deepin  Linux Distro `
 - ` file remove error fixed `
 
 <h1>🔰 Installation And Requirements 🔰</h1>
