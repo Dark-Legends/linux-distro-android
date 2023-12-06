@@ -4,8 +4,7 @@
 
 
 <h2>This Tool Test On 👨‍💻</h2>
-[Android](https://wikipedia.org/wiki/Android) [![alt tag] 
- (https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://fr.wikipedia.org/wiki/Android)
+
 - only on Termux
 
 <h3>Linux Distro Support</h3>
