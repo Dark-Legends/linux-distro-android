@@ -22,7 +22,7 @@
 * `deepin`: Deepin (beige)
 <p>Total 12 Linux Distros</p>
 
-
+![images](https://github.com/Dark-Legends/linux-distro-android/assets/142109781/68e6230f-1135-4aaf-958f-955c04c9a876)
 
 - ` Added Artix Linux Distro `
 - ` Added Deepin  Linux Distro `
