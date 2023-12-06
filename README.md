@@ -21,6 +21,9 @@
 * `void`: Void Linux
 * `deepin`: Deepin (beige)
 <p>Total 12 Linux Distros</p>
+![Linux Distro ](Image URL)
+![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfRt_48BGvdn0RiFu3hIWwuJyc5DuR_DHR0g&usqp=CAU)
+
 
 - ` Added Artix Linux Distro `
 - ` Added Deepin  Linux Distro `
