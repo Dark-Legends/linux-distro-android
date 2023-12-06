@@ -87,7 +87,7 @@ chmod +x linux-distro
 chmod +x Linux-distro
 mv linux-distro $PATH 
 mv remove-distro .remove-distro
-rm -rf images (1)~2.jpeg
+rm -rf 'images (1)~2.jpeg'
 echo
 echo -e "\t${G}Successfully Installed\n\n"
 rm -rf setup.sh
