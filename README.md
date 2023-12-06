@@ -1,10 +1,11 @@
 <h1 align="center">Linux Distros Android</h1>
 
-<img src="Screenshot_2023_1004_.png"/>
+
 
 
 <h2>This Tool Test On 👨‍💻</h2>
-
+[Android](https://wikipedia.org/wiki/Android) [![alt tag]
+(https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://fr.wikipedia.org/wiki/Android)
 - only on Termux
 
 <h3>Linux Distro Support</h3>
@@ -19,8 +20,8 @@
 * `pardus`: Pardus (yirmibir)
 * `ubuntu`: Ubuntu (23.10)
 * `void`: Void Linux
-
-<p>Total 11 Linux Distros</p>
+* `deepin`: Deepin (beige)
+<p>Total 12 Linux Distros</p>
 
 - ` Added Artix Linux Distro `
 - ` Added Deepin  Linux Distro `
