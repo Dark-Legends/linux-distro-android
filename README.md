@@ -20,10 +20,15 @@
 * `ubuntu`: Ubuntu (23.10)
 * `void`: Void Linux
 * `deepin`: Deepin (beige)
-<p>Total 12 Linux Distros</p>
+* `Raspberrypi`: Raspberrypi (32-bit Only)
+* `Backbox`: Backbox (beige)
+* `Parrot` : Parrot OS 
+<p>Total 15 Linux Distros</p>
 
 ![images](https://github.com/Dark-Legends/linux-distro-android/assets/142109781/68e6230f-1135-4aaf-958f-955c04c9a876)
 
+
+- ` Added parrot Linux Distro `
 - ` Added Artix Linux Distro `
 - ` Added Deepin  Linux Distro `
 - ` file remove error fixed `
