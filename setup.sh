@@ -9,6 +9,7 @@ PI="\033[1;35m"
 B="\033[1;36m"
 W="\033[1;37m"
 Teal="\e[38;5;37m"
+Gold="\033[38;5;220m"
 # files PATH
 LOG_DIR=$PWD/logs
 ILOG=$LOG_DIR/install.logs
@@ -82,11 +83,11 @@ echo -e '\n--------------------\n' >> "$ILOG"
 
 echo -e '\n=========\nCOMPLETED\n=========\n' >> "$ILOG"
 
+echo -e "\n${PI}[+] ${G}Logs Saved : ${Gold}$ILOG"
 sleep 1
 chmod +x linux-distro
 chmod +x Linux-distro
 mv linux-distro $PATH 
-mv remove-distro .remove-distro
 rm -rf 'images (1)~2.jpeg'
 echo
 echo -e "\t${G}Successfully Installed\n\n"
