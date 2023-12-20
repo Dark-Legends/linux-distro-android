@@ -87,7 +87,7 @@ echo -e "\n${PI}[+] ${G}Logs Saved : ${Gold}$ILOG"
 sleep 1
 chmod +x linux-distro
 chmod +x Linux-distro
-mv linux-distro $PATH 
+mv linux-distro /data/data/com.termux/files/usr/bin 
 rm -rf 'images (1)~2.jpeg'
 echo
 echo -e "\t${G}Successfully Installed\n\n"
