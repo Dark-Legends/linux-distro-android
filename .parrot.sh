@@ -1,6 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
-
-
+#!/data/data/com.termux/files/usr/bin/bash 
 installing () {
 directory=parrot-fs
 if [ -d "$directory" ];then
@@ -98,8 +96,6 @@ printf "\x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Successfully cl
 cat parrot-fs/etc/apt/sources.list | \
 sed -e 's/stable/lts/g' >> parrot-fs/etc/apt/sources.list
 printf "\x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Parsing Parrot with stable repo!\n"
-mkdir ParrotOS
-mv $bin parrot-binds parrot-fs ParrotOS && mv ParrotOS /data/data/com.termux/files/home
 printf "\x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m The installation has been completed! You can now launch parrot script type ./parrot\n"
 printf "\e[0m"
 
@@ -114,8 +110,9 @@ wget http://archive.parrotsec.org/parrot/misc/archive.gpg -O parrot-fs/etc/apt/t
 echo "127.0.0.1 localhost" > parrot-fs/etc/hosts
 echo "nameserver 8.8.8.8" > parrot-fs/etc/resolv.conf
 echo "nameserver 8.8.4.4" >> parrot-fs/etc/resolv.conf
-
+sleep 2
+mkdir ParrotOS && mv $bin parrot-binds parrot-fs ParrotOS && mv ParrotOS /data/data/com.termux/files/home
 }
-# Start The Script
-installing
+# Call The Function 
+installing 
 # End The Script
